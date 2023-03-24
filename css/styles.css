@@ -1,13 +1,43 @@
+
 body{
     background-color: lightgray;
+    height: 100vh;
 }
 
 .constructor{
+    padding-top: 10px;
     text-align: center;
     background-color: white;
     width: 50%;
-    position: fixed;
+    position: absolute;
+    margin-top: 25%;
     margin-left: 50%;
-    margin-top: 50%;
     transform: translate(-50%,-50%);
+}
+.profile{
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100%;
+}
+@font-face{
+     font-family: gasalt-black;
+     src: url(font/Gasalt-Black.ttf);
+}
+.name{
+    text-transform: uppercase;
+    font-family: gasalt-black;
+}
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+a{
+    color: #244dbd;   
+    margin: bottom 
+}
+.facebook-icon{
+    width: 20px;
+    margin-top: 70px;
 }
