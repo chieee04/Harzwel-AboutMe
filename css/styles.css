@@ -13,6 +13,7 @@ body{
     margin-top: 25%;
     margin-left: 50%;
     transform: translate(-50%,-50%);
+    padding-bottom: 30px;
 }
 .profile{
 
@@ -32,12 +33,24 @@ body{
 .bio{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 a{
     color: #244dbd;   
     margin: bottom 
 }
+a:hover{
+    color: #ebebeb;
+    background-color: #244dbd;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 18px;
+}
 .facebook-icon{
     width: 20px;
     margin-top: 70px;
+    margin-right: 2px;
 }
